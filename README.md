@@ -1,6 +1,6 @@
 # Projeto exemplo da sensacional Empowerdata (Vinícius)
 
-#### Testes iniciais
+### Testes iniciais
 
 Na pasta do projeto, utilizando um terminal (git bash, por exemplo), crie o ambiente virtual:
 
