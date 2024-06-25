@@ -26,7 +26,7 @@ Com CTRL + ",", pesquise com send para encontrar a configuração abaixo, que de
 
 Vá para a edição de script.py, certificando-se que o ambiente virtual criado está ativo no no VSCode: no canto inferior direito, escolha o virtual environment yfinance.
 
-No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo estiver bem, abrirá uma janela lateral com o teste dessa importação sem erro. Delete script.py
+No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo estiver bem, abrirá uma janela lateral  (do VSCode, não do quarto de dormir) com o teste dessa importação sem erro. Delete script.py
 
 Crie uma pasta yfinance dentro da pasta do projeto. Dentro desta pasta edit  o script.py:
 
@@ -48,6 +48,8 @@ petrobras.tail()
 vale.head()
 bb.head()
 ```
+
+Execute os testes de cada trecho com CTRL + Enter e veja a saída dos dataframes na janela lateral.
 
 
 
