@@ -51,6 +51,7 @@ bb.head()
 
 Execute os testes de cada trecho com CTRL + Enter e veja a saída dos dataframes na janela lateral.
 
+Os dados serão agora carregados para o Power BI, com esse script Python e haverá a criação de um dashboard.
 
 
 
