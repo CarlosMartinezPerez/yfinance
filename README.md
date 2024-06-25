@@ -30,6 +30,7 @@ No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo es
 
 Crie uma pasta yfinance dentro da pasta do projeto. Dentro desta pasta edit  o script.py:
 
+```
 import yfinance as yf
 
 def carregar_dados(ticker):
@@ -46,6 +47,8 @@ vale = carregar_dados("VALE3.SA")
 petrobras.tail()
 vale.head()
 bb.head()
+```
+
 
 
 
