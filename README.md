@@ -58,7 +58,8 @@ Os dados serão agora carregados para o Microsoft Power BI com esse script Pytho
 Para isso, abra o Microsoft Power BI Desktop e configure-o para utilizar o ambiente virtual yfinance seguindo por Arquivo, Opções e Configurações, Opções, Scripts do Python, Definir um diretório do Python, Procurar, selecione C:\Users\seu usuário\anaconda3\envs\yfinance. OK para fechar.
 
 Vá em Obter Dados, Mais, Script do Python e copie o código abaixo na área do script e clique em Conectar.
-'''python
+
+```python
 import yfinance as yf
 
 def carregar_dados(ticker):
@@ -71,7 +72,7 @@ def carregar_dados(ticker):
 petrobras = carregar_dados("PETR4.SA")
 bb = carregar_dados("BBAS3.SA")
 vale = carregar_dados("VALE3.SA")
-'''
+```
 
 Crie seu dashboard usando sua criatividade ou assista a aula 4 do trinamento.
 
