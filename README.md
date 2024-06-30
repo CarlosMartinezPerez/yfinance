@@ -74,7 +74,7 @@ bb = carregar_dados("BBAS3.SA")
 vale = carregar_dados("VALE3.SA")
 ```
 
-Crie seu dashboard usando sua criatividade ou assista a aula 4 do trinamento.
+Crie seu dashboard usando sua criatividade ou assista a aula 4 do treinamento.
 
 ![´](dash.png)
 
