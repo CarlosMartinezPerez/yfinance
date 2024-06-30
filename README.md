@@ -32,13 +32,13 @@ No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo es
 
 Crie uma pasta yfinance dentro da pasta do projeto. Dentro desta pasta edit  o script.py:
 
-```
+```python
 import yfinance as yf
 
 def carregar_dados(ticker):
     df = yf.Ticker(ticker).history("1y")
     df.reset_index(inplace=True)
-    df[ticker] = ticker.split(".")[0]
+    df['ticker'] = ticker.split(".")[0]
     return df
 
 
@@ -56,6 +56,22 @@ Execute os testes de cada trecho com CTRL + Enter e veja a saída dos dataframes
 Os dados serão agora carregados para o Microsoft Power BI com esse script Python e haverá a criação de um dashboard para o acompanhamento de preços das ações de cada empresa. Altere os tickers com aqueles que correspondem às ações de sua carteira.
 
 Para isso, abra o Microsoft Power BI Desktop e configure-o para utilizar o ambiente virtual yfinance seguindo por Arquivo, Opções e Configurações, Opções, Scripts do Python, Definir um diretório do Python, Procurar, selecione C:\Users\seu usuário\anaconda3\envs\yfinance. OK para fechar.
+
+Vá em Obter Dados, Mais, Script do Python e copie o código abaixo na área do script e clique em Conectar.
+'''python
+import yfinance as yf
+
+def carregar_dados(ticker):
+    df = yf.Ticker(ticker).history("1y")
+    df.reset_index(inplace=True)
+    df['ticker'] = ticker.split(".")[0]
+    return df
+
+
+petrobras = carregar_dados("PETR4.SA")
+bb = carregar_dados("BBAS3.SA")
+vale = carregar_dados("VALE3.SA")
+'''
 
 Crie seu dashboard usando sua criatividade ou assista a aula 4 do trinamento.
 
