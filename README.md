@@ -22,15 +22,15 @@ $ code .
 
 No VSCode, crie o script de teste script.py
 
-Com CTRL + ",", pesquise com send para encontrar a configuração abaixo, que deve ser ativada. Isso irá facilitar os testes. 
+Com CTRL + ",", pesquise com send para encontrar a configuração abaixo, que deve ser ativada. Isso irá facilitar os testes.
 
 "jupyter.interactiveWindow.textEditor.executeSelection": true
 
 Vá para a edição de script.py, certificando-se que o ambiente virtual criado está ativo no no VSCode: no canto inferior direito, escolha o virtual environment yfinance.
 
-No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo estiver bem, abrirá uma janela lateral  (do VSCode, não do quarto de dormir) com o teste dessa importação sem erro. Delete script.py
+No script.py digite "import yfinance as yf" e pressione CTRL + Enter. Se tudo estiver bem, abrirá uma janela lateral (do VSCode, não do quarto de dormir) com o teste dessa importação sem erro. Delete script.py
 
-Crie uma pasta yfinance dentro da pasta do projeto. Dentro desta pasta edit  o script.py:
+Crie uma pasta yfinance dentro da pasta do projeto. Dentro desta pasta edit o script.py:
 
 ```python
 import yfinance as yf
@@ -76,8 +76,6 @@ vale = carregar_dados("VALE3.SA")
 
 Crie seu dashboard usando sua criatividade ou assista a aula 4 do trinamento.
 
+![´](dash.png)
+
 Referência: https://www.youtube.com/watch?v=sj_F5477lvQ&t=28s
-
-
-
-
