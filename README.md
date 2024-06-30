@@ -4,7 +4,7 @@
 
 ### Testes iniciais
 
-Na pasta do projeto, utilizando um terminal (git bash, por exemplo), crie o ambiente virtual:
+Na pasta do projeto, utilizando um terminal (git bash, por exemplo), crie um ambiente virtual:
 
 $ conda create --name yfinance python=3.11.7 (versão do python no seu anaconda).
 
@@ -20,7 +20,7 @@ Abra o VSCode a partir do terminal:
 
 $ code .
 
-No VSCode, crie um script de teste script.py
+No VSCode, crie o script de teste script.py
 
 Com CTRL + ",", pesquise com send para encontrar a configuração abaixo, que deve ser ativada. Isso irá facilitar os testes. 
 
@@ -56,6 +56,10 @@ Execute os testes de cada trecho com CTRL + Enter e veja a saída dos dataframes
 Os dados serão agora carregados para o Microsoft Power BI com esse script Python e haverá a criação de um dashboard para o acompanhamento de preços das ações de cada empresa. Altere os tickers com aqueles que correspondem às ações de sua carteira.
 
 Para isso, abra o Microsoft Power BI Desktop e configure-o para utilizar o ambiente virtual yfinance seguindo por Arquivo, Opções e Configurações, Opções, Scripts do Python, Definir um diretório do Python, Procurar, selecione C:\Users\seu usuário\anaconda3\envs\yfinance. OK para fechar.
+
+Crie seu dashboard usando sua criatividade ou assista a aula 4 do trinamento.
+
+Referência: https://www.youtube.com/watch?v=sj_F5477lvQ&t=28s
 
 
 
